@@ -1,8 +1,8 @@
 # UCall Widget Lite
 
-UCall Widget Lite is a lightweight Android home-screen widget for seeing the latest phone call and calling back with one tap.
+UCall Widget Lite is a lightweight Android home-screen widget that displays the latest call and lets the user call back with one tap.
 
-The project was created for OpenAI Build Week by a non-technical product creator with Codex assistance. Codex helped turn product requirements, testing feedback, and device-specific observations into a working Android project.
+The project was created for OpenAI Build Week by a non-technical product creator working with GPT-5.6 Thinking in ChatGPT and Codex. Together, these tools helped turn product requirements, testing feedback, and device-specific observations into a working Android application.
 
 ## Overview
 
@@ -26,7 +26,7 @@ The app is intentionally small and privacy-conscious. It reads local phone/call/
 
 UCall Widget Lite does not require an account and does not send call data to a server.
 
-The app uses Android permissions to read the local call log, phone state, and contacts so it can display the latest call and format the widget correctly. Call data is stored locally on the device through the app's local storage helpers. The project does not include analytics, network tracking, cloud sync, advertising SDKs, or remote APIs.
+The app uses Android permissions to read the local call log, phone state, and contacts so it can display the latest call and format the widget correctly. All call and contact information is processed locally on the device and is not transmitted externally. The project does not include analytics, network tracking, cloud sync, advertising SDKs, or remote APIs.
 
 No signing credentials, API keys, personal keystores, APK/AAB build artifacts, local SDK paths, or ZIP archives are intended to be committed to this repository.
 
