@@ -1,0 +1,15 @@
+<!-- Default to about 4x1 cells, while keeping resize bounds aligned with the compact layout. -->
+<appwidget-provider
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:label="UCall Lite"
+    android:minWidth="250dp"
+    android:minHeight="64dp"
+    android:minResizeWidth="220dp"
+    android:minResizeHeight="64dp"
+    android:targetCellWidth="4"
+    android:targetCellHeight="1"
+    android:updatePeriodMillis="0"
+    android:initialLayout="@layout/widget_last_call"
+    android:previewImage="@drawable/widget_preview"
+    android:resizeMode="horizontal|vertical"
+    android:widgetCategory="home_screen" />

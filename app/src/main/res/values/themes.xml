@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AppTheme" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:windowBackground">@android:color/black</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="fontFamily">sans-serif</item>
+        <item name="android:alertDialogTheme">@style/ThemeOverlay_UCallLite_Dialog</item>
+        <item name="alertDialogTheme">@style/ThemeOverlay_UCallLite_Dialog</item>
+        <item name="materialAlertDialogTheme">@style/ThemeOverlay_UCallLite_Dialog</item>
+    </style>
+
+    <style name="Theme.UCallWidget.NoActionBar" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="fontFamily">sans-serif</item>
+        <item name="android:alertDialogTheme">@style/ThemeOverlay_UCallLite_Dialog</item>
+        <item name="alertDialogTheme">@style/ThemeOverlay_UCallLite_Dialog</item>
+        <item name="materialAlertDialogTheme">@style/ThemeOverlay_UCallLite_Dialog</item>
+    </style>
+
+    <style name="AppTheme.Transparent" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">false</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="fontFamily">sans-serif</item>
+        <item name="android:alertDialogTheme">@style/ThemeOverlay_UCallLite_Dialog</item>
+        <item name="alertDialogTheme">@style/ThemeOverlay_UCallLite_Dialog</item>
+        <item name="materialAlertDialogTheme">@style/ThemeOverlay_UCallLite_Dialog</item>
+    </style>
+
+    <style name="Theme.UCall.Transparent" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowDisablePreview">true</item>
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:backgroundDimEnabled">false</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">false</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="fontFamily">sans-serif</item>
+    </style>
+
+    <style name="Theme.UCallLite.DialogActivity" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:backgroundDimEnabled">false</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">false</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="fontFamily">sans-serif</item>
+        <item name="android:alertDialogTheme">@style/ThemeOverlay_UCallLite_Dialog</item>
+        <item name="alertDialogTheme">@style/ThemeOverlay_UCallLite_Dialog</item>
+        <item name="materialAlertDialogTheme">@style/ThemeOverlay_UCallLite_Dialog</item>
+    </style>
+
+    <style name="ThemeOverlay_UCallLite_Dialog">
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="fontFamily">sans-serif</item>
+    </style>
+</resources>

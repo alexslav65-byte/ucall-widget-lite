@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/widget_container_height"
+    android:padding="@dimen/widget_padding"
+    android:minHeight="@dimen/widget_container_height"
+    android:widgetCategory="home_screen"
+    android:previewImage="@drawable/preview_widget">
+
+    <include
+        layout="@layout/widget_content_last_call"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</FrameLayout>

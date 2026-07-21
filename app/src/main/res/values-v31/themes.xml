@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.UCallWidget.AppWidgetContainerParent" parent="@android:style/Theme.Material.Light">
+        <item name="appWidgetRadius">@android:dimen/system_app_widget_background_radius</item>
+        <item name="appWidgetInnerRadius">@android:dimen/system_app_widget_inner_radius</item>
+        <item name="appWidgetPadding">16dp</item>
+    </style>
+
+    <style name="Theme.UCallWidget.NoActionBar" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="fontFamily">sans-serif</item>
+        <item name="android:alertDialogTheme">@style/ThemeOverlay_UCallLite_Dialog</item>
+        <item name="alertDialogTheme">@style/ThemeOverlay_UCallLite_Dialog</item>
+        <item name="materialAlertDialogTheme">@style/ThemeOverlay_UCallLite_Dialog</item>
+    </style>
+</resources>

@@ -1,0 +1,29 @@
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Selected: прапор + біла рамка -->
+    <item android:state_checked="true">
+        <layer-list>
+            <item android:drawable="@drawable/bg_lang_ua" />
+            <item>
+                <shape>
+                    <corners android:radius="10dp" />
+                    <stroke android:width="2dp" android:color="#FFFFFFFF" />
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+
+    <!-- Not selected: прапор + легке затемнення -->
+    <item>
+        <layer-list>
+            <item android:drawable="@drawable/bg_lang_ua" />
+            <item>
+                <shape>
+                    <corners android:radius="10dp" />
+                    <solid android:color="#66000000" />
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+
+</selector>

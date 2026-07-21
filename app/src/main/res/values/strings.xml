@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">UCall Widget Lite</string>
+    <string name="app_name_sorted">UCall Widget Lite</string>
+    <string name="widget_name_sorted">UCall Lite</string>
+    <string name="widget_name_wide_sorted">UCall Lite Wide</string>
+    <string name="add_widget">Add widget</string>
+    <string name="widget_description">Last call widget</string>
+    <string name="contact_name">Name</string>
+    <string name="unknown">Unknown</string>
+    <string name="unknown_number">Unknown number</string>
+    <string name="hidden_number">   </string>
+    <string name="widget_help">Widget help</string>
+    <string name="widget_help_button">How it works</string>
+
+    <string name="call">Call</string>
+    <string name="call_type">Call type</string>
+
+    <string name="widget_settings_modes_block_title">Modes</string>
+    <string name="widget_settings_font_size_title">Font size</string>
+    <string name="widget_settings_preview_title">Preview</string>
+    <string name="widget_spy_mode">Spy mode (hide phone number)</string>
+
+    <string name="widget_font_small">Small</string>
+    <string name="widget_font_medium">Standard</string>
+    <string name="widget_font_large">Large</string>
+
+    <string name="widget_settings_choose_theme">Choose widget theme</string>
+    <string name="widget_theme_dark">Dark theme</string>
+    <string name="widget_theme_light">Light theme</string>
+    <string name="widget_theme_standard">Blue</string>
+
+    <string name="add_widget_to_home">Add widget to home screen</string>
+    <string name="add_widget_manual_title">Add widget</string>
+    <string name="add_widget_manual_message">If the system widget picker appears, select "UCall Lite" from the list and confirm.\n\nIf the picker does not appear, add the widget manually:\n\n1. Go to the home screen.\n2. Long press on an empty area.\n3. Select "Widgets".\n4. Find "UCall Lite" in the list.\n5. Drag it to the home screen.\n\nAfter adding, you can customize its appearance in this menu.</string>
+    <string name="add_widget_manual_button">Open home screen</string>
+    <string name="add_widget_manual_toast">Long press on empty space - Widgets - UCall Lite</string>
+    <string name="add_widget_manual_toast_short">Long press on empty space - Widgets - UCall Lite</string>
+    <string name="add_widget_step_title">Add UCall Lite widget</string>
+    <string name="add_widget_step_message">Add the widget to your home screen to call back in one tap.</string>
+    <string name="add_widget_step_button">Add widget</string>
+    <string name="add_widget_step_later">Later</string>
+
+    <string name="widget_hint_press">Push</string>
+    <string name="onboarding_next">Next</string>
+    <string name="onboarding_done">OK</string>
+    <string name="settings_done">Done</string>
+
+    <string name="toast_runtime_denied">Without these permissions, the widget will not work</string>
+
+    <string name="perm_title">To make the app work properly, please grant the required permissions.</string>
+    <string name="perm_runtime_desc">Needed to detect the last call, show the caller name, and make calls.</string>
+    <string name="perm_continue">Continue</string>
+    <string name="perm_open_settings">Open app settings</string>
+</resources>

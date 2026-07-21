@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Основний фон: синій центр -->
+    <item>
+        <shape>
+            <gradient
+                android:type="radial"
+                android:gradientRadius="260dp"
+                android:centerX="0.68"
+                android:centerY="0.5"
+                android:startColor="#FF0B1E33"
+                android:centerColor="#99224B73"
+                android:endColor="#0015253C" />
+        </shape>
+    </item>
+
+    <!-- Додаткова мʼяка синя підсвітка -->
+    <item>
+        <shape>
+            <gradient
+                android:type="radial"
+                android:gradientRadius="400dp"
+                android:centerX="0.68"
+                android:centerY="0.5"
+                android:startColor="#0015253C"
+                android:endColor="#33224B73" />
+        </shape>
+    </item>
+
+    <!-- Верхня тонка смужка -->
+    <item android:height="1dp" android:gravity="top">
+        <shape>
+            <gradient
+                android:angle="0"
+                android:startColor="#331E88FF"
+                android:centerColor="#001E88FF"
+                android:endColor="#331E88FF" />
+        </shape>
+    </item>
+
+    <!-- Нижня тонка смужка -->
+    <item android:height="1dp" android:gravity="bottom">
+        <shape>
+            <gradient
+                android:angle="0"
+                android:startColor="#331E88FF"
+                android:centerColor="#001E88FF"
+                android:endColor="#331E88FF" />
+        </shape>
+    </item>
+
+</layer-list>

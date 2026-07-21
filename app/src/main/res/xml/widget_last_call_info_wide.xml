@@ -1,0 +1,15 @@
+<!-- Optional wide 5x1 variant; uses the same RemoteViews layout and shared update logic. -->
+<appwidget-provider
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:label="@string/widget_name_wide_sorted"
+    android:minWidth="320dp"
+    android:minHeight="64dp"
+    android:minResizeWidth="250dp"
+    android:minResizeHeight="64dp"
+    android:targetCellWidth="5"
+    android:targetCellHeight="1"
+    android:updatePeriodMillis="0"
+    android:initialLayout="@layout/widget_last_call"
+    android:previewImage="@drawable/widget_preview"
+    android:resizeMode="horizontal|vertical"
+    android:widgetCategory="home_screen" />

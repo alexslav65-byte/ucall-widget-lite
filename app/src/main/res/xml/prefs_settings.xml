@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/widget_settings_modes_block_title">
+        <SwitchPreferenceCompat
+            android:key="spy_mode"
+            android:title="@string/widget_spy_mode" />
+    </PreferenceCategory>
+</PreferenceScreen>

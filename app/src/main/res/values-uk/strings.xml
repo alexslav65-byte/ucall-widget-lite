@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">UCall Widget Lite</string>
+    <string name="app_name_sorted">UCall Widget Lite</string>
+    <string name="widget_name_sorted">UCall Lite</string>
+    <string name="widget_name_wide_sorted">UCall Lite широкий</string>
+    <string name="add_widget">Додати віджет</string>
+    <string name="widget_description">Віджет останнього дзвінка</string>
+    <string name="contact_name">Імʼя</string>
+    <string name="unknown">Невідомо</string>
+    <string name="unknown_number">Невідомий номер</string>
+    <string name="hidden_number">   </string>
+    <string name="widget_help">Довідка віджета</string>
+    <string name="widget_help_button">Як це працює</string>
+
+    <string name="call">Дзвінок</string>
+    <string name="call_type">Тип дзвінка</string>
+
+    <string name="widget_settings_modes_block_title">Режими</string>
+    <string name="widget_settings_font_size_title">Розмір шрифту</string>
+    <string name="widget_settings_preview_title">Попередній перегляд</string>
+    <string name="widget_spy_mode">Spy-режим (приховувати номер)</string>
+
+    <string name="widget_font_small">Малий</string>
+    <string name="widget_font_medium">Стандартний</string>
+    <string name="widget_font_large">Великий</string>
+
+    <string name="widget_settings_choose_theme">Оберіть тему віджета</string>
+    <string name="widget_theme_dark">Темна тема</string>
+    <string name="widget_theme_light">Світла тема</string>
+    <string name="widget_theme_standard">Синя</string>
+
+    <string name="add_widget_to_home">Додати віджет на головний екран</string>
+    <string name="add_widget_manual_title">Додавання віджета</string>
+    <string name="add_widget_manual_message">Якщо зʼявилося системне вікно додавання віджета, оберіть у списку "UCall Lite" і підтвердьте.\n\nЯкщо вікно не зʼявилося, додайте віджет вручну:\n\n1. Перейдіть на головний екран.\n2. Затисніть вільне місце на екрані.\n3. Оберіть "Віджети".\n4. Знайдіть "UCall Lite" у списку.\n5. Перетягніть його на екран.\n\nПісля додавання ви зможете налаштувати його вигляд у цьому меню.</string>
+    <string name="add_widget_manual_button">Відкрити головний екран</string>
+    <string name="add_widget_manual_toast">Довге натискання на вільне місце - Віджети - UCall Lite</string>
+    <string name="add_widget_manual_toast_short">Довге натискання на вільне місце - Віджети - UCall Lite</string>
+    <string name="add_widget_step_title">Додайте віджет UCall Lite</string>
+    <string name="add_widget_step_message">Додайте віджет на головний екран, щоб передзвонювати одним дотиком.</string>
+    <string name="add_widget_step_button">Додати віджет</string>
+    <string name="add_widget_step_later">Пізніше</string>
+
+    <string name="widget_hint_press">Тисни</string>
+    <string name="onboarding_next">Далі</string>
+    <string name="onboarding_done">OK</string>
+    <string name="settings_done">Готово</string>
+
+    <string name="toast_runtime_denied">Без цих дозволів віджет не працюватиме</string>
+
+    <string name="perm_title">Для коректної роботи застосунку надайте необхідні дозволи.</string>
+    <string name="perm_runtime_desc">Потрібен для отримання останнього дзвінка, імені абонента та виконання виклику.</string>
+    <string name="perm_continue">Продовжити</string>
+    <string name="perm_open_settings">Відкрити налаштування застосунку</string>
+</resources>
