@@ -89,19 +89,27 @@ The final Android launcher widget-pinning confirmation is controlled by the syst
 
 ## How Codex Was Used
 
+UCall Widget Lite was created and refined with Codex. The Codex desktop model used for direct repository work was GPT-5.5.
+
 Codex was used throughout development to:
 
 - audit and remove non-Lite functionality;
 - rebrand the project as UCall Widget Lite;
 - separate the widget-only update flow from removed full-app features;
+- implement and review the Android code;
 - fix Ukrainian localization and encoding issues;
 - improve onboarding and add-widget UI behavior;
 - add compact and wide widget variants;
 - improve call-end refresh reliability;
+- run Gradle builds;
 - reduce debug logging and temporary diagnostics before testing;
-- prepare the repository for public GitHub publishing.
+- prepare Git history;
+- publish the GitHub repository;
+- update documentation.
 
-The available Codex model during development was GPT-5.5. GPT-5.6 was not available in the model selector for this account during the submission period, so this project should not be described as using GPT-5.6.
+During the final OpenAI Build Week phase, GPT-5.6 Thinking in ChatGPT was used for product and architecture work: refining the product logic, reviewing the widget update flow, making privacy and customization decisions, and shaping the final demo and submission narrative.
+
+GPT-5.6 was used in ChatGPT for this final reasoning and product-shaping phase. It was not selected inside Codex for direct repository work.
 
 ## Current Project Status
 
